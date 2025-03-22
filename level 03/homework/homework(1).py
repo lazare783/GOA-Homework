@@ -1,0 +1,5 @@
+x = int(input("what is the first number?"))
+y = int(input("what is the second number?"))
+z = int(input("what is the third number?"))
+n = int(input("what is the forth number?"))
+print((x + y + z + n) / 4)
