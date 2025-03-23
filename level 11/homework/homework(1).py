@@ -3,7 +3,9 @@ op = input('enter sign:')
 y = int(input('enter second number:'))
 
 def calculator(x, y, op):
-    if op == "+":
+    if type(x)!=int or type(y)!=int:
+        return 'unknown value'
+    elif op == "+":
         return x+y
     elif op == "-":
         return x-y
